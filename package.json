@@ -1,0 +1,26 @@
+{
+  "name": "ismocha",
+  "version": "0.0.0",
+  "description": "ismocha checks whether code is run using Mocha.",
+  "contributors": [
+    {
+      "name": "Golo Roden",
+      "email": "golo.roden@thenativeweb.io"
+    }
+  ],
+  "main": "dist/isMocha.js",
+  "dependencies": {},
+  "devDependencies": {
+    "assertthat": "0.9.0",
+    "roboter": "0.15.2",
+    "roboter-server": "0.15.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/thenativeweb/ismocha.git"
+  },
+  "keywords": [
+    "test"
+  ],
+  "license": "MIT"
+}
