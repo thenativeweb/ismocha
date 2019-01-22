@@ -1,6 +1,6 @@
 'use strict';
 
-const isMocha = require('../../lib/isMocha');
+const isMocha = require('../../../src/isMocha');
 
 /* eslint-disable no-console */
 console.log(isMocha());

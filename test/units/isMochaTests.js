@@ -5,7 +5,7 @@ const childProcess = require('child_process'),
 
 const assert = require('assertthat');
 
-const isMocha = require('../../lib/isMocha');
+const isMocha = require('../../src/isMocha');
 
 suite('isMocha', () => {
   test('is a function.', done => {
@@ -21,7 +21,7 @@ suite('isMocha', () => {
   test('returns false when not run using Mocha.', done => {
     /* eslint-disable no-sync */
     const result = childProcess.execSync('node runIsMocha.js', {
-      cwd: path.join(__dirname, '..', 'helpers'),
+      cwd: path.join(__dirname, '..', 'shared', 'helpers'),
       encoding: 'utf8'
     });
     /* eslint-enable no-sync */
