@@ -6,13 +6,17 @@
     {
       "name": "Golo Roden",
       "email": "golo.roden@thenativeweb.io"
+    },
+    {
+      "name": "Jan-Hendrik Grundhöfer",
+      "email": "jan-hendrik.grundhoefer@thenativeweb.io"
     }
   ],
-  "main": "dist/isMocha.js",
+  "main": "lib/isMocha.js",
   "dependencies": {},
   "devDependencies": {
-    "assertthat": "2.0.1",
-    "roboter": "3.0.4"
+    "assertthat": "3.0.0",
+    "roboter": "4.1.0"
   },
   "repository": {
     "type": "git",
