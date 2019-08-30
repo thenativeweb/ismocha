@@ -2,6 +2,16 @@
 
 ismocha checks whether code is run using Mocha.
 
+## Status
+
+| Category         | Status                                                                                                                                     |
+| ---------------- | ------------------------------------------------------------------------------------------------------------------------------------------ |
+| Version          | [![npm](https://img.shields.io/npm/v/ismocha)](https://www.npmjs.com/package/ismocha)                                                      |
+| Dependencies     | ![David](https://img.shields.io/david/thenativeweb/ismocha)                                                                                |
+| Dev dependencies | ![David](https://img.shields.io/david/dev/thenativeweb/ismocha)                                                                            |
+| Build            | [![CircleCI](https://img.shields.io/circleci/build/github/thenativeweb/ismocha)](https://circleci.com/gh/thenativeweb/ismocha/tree/master) |
+| License          | ![GitHub](https://img.shields.io/github/license/thenativeweb/ismocha)                                                                      |
+
 ## Installation
 
 ```shell
@@ -13,7 +23,13 @@ $ npm install ismocha
 First you need to integrate ismocha into your application.
 
 ```javascript
-const isMocha = require('ismocha');
+const isMocha = require('ismocha').default;
+```
+
+If you use TypeScript, use the following code instead:
+
+```typescript
+import isMocha from 'ismocha';
 ```
 
 Then call the `isMocha` function. If you run this in a process started by Mocha, the function will return `true`; otherwise it will return `false`:
