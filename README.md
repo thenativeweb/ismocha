@@ -2,6 +2,16 @@
 
 ismocha checks whether code is run using Mocha.
 
+## Status
+
+| Category         | Status                                                                                                                                     |
+| ---------------- | ------------------------------------------------------------------------------------------------------------------------------------------ |
+| Version          | [![npm](https://img.shields.io/npm/v/ismocha)](https://www.npmjs.com/package/ismocha)                                                      |
+| Dependencies     | ![David](https://img.shields.io/david/thenativeweb/ismocha)                                                                                |
+| Dev dependencies | ![David](https://img.shields.io/david/dev/thenativeweb/ismocha)                                                                            |
+| Build            | [![CircleCI](https://img.shields.io/circleci/build/github/thenativeweb/ismocha)](https://circleci.com/gh/thenativeweb/ismocha/tree/master) |
+| License          | ![GitHub](https://img.shields.io/github/license/thenativeweb/ismocha)                                                                      |
+
 ## Installation
 
 ```shell
@@ -13,7 +23,13 @@ $ npm install ismocha
 First you need to integrate ismocha into your application.
 
 ```javascript
-const isMocha = require('ismocha');
+const isMocha = require('ismocha').default;
+```
+
+If you use TypeScript, use the following code instead:
+
+```typescript
+import isMocha from 'ismocha';
 ```
 
 Then call the `isMocha` function. If you run this in a process started by Mocha, the function will return `true`; otherwise it will return `false`:
@@ -31,14 +47,3 @@ To build this module use [roboter](https://www.npmjs.com/package/roboter).
 ```shell
 $ npx roboter
 ```
-
-## License
-
-The MIT License (MIT)
-Copyright (c) 2017-2019 the native web.
-
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
