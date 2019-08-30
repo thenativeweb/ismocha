@@ -10,13 +10,18 @@
     {
       "name": "Jan-Hendrik Grundhöfer",
       "email": "jan-hendrik.grundhoefer@thenativeweb.io"
+    },
+    {
+      "name": "Hannes Leutloff",
+      "email": "hannes.leutloff@thenativeweb.io"
     }
   ],
-  "main": "lib/isMocha.js",
+  "main": "build/lib/isMocha.js",
+  "types": "build/lib/isMocha.d.ts",
   "dependencies": {},
   "devDependencies": {
-    "assertthat": "3.0.0",
-    "roboter": "4.1.0"
+    "assertthat": "4.0.1",
+    "roboter": "7.1.1"
   },
   "repository": {
     "type": "git",
