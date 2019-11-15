@@ -1,6 +1,6 @@
-import assert from 'assertthat';
+import { assert } from 'assertthat';
 import childProcess from 'child_process';
-import isMocha from '../../lib/isMocha';
+import { isMocha } from '../../lib/isMocha';
 import path from 'path';
 
 suite('isMocha', (): void => {

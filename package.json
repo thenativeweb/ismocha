@@ -20,8 +20,8 @@
   "types": "build/lib/isMocha.d.ts",
   "dependencies": {},
   "devDependencies": {
-    "assertthat": "4.0.2",
-    "roboter": "9.1.1"
+    "assertthat": "5.0.1",
+    "roboter": "9.2.0"
   },
   "repository": {
     "type": "git",

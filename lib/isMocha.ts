@@ -8,4 +8,4 @@ const isMocha = function (): boolean {
   return process.argv[1].includes('.bin/mocha');
 };
 
-export default isMocha;
+export { isMocha };

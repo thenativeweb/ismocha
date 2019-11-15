@@ -23,13 +23,13 @@ $ npm install ismocha
 First you need to integrate ismocha into your application.
 
 ```javascript
-const isMocha = require('ismocha').default;
+const { isMocha } = require('ismocha');
 ```
 
 If you use TypeScript, use the following code instead:
 
 ```typescript
-import isMocha from 'ismocha';
+import { isMocha } from 'ismocha';
 ```
 
 Then call the `isMocha` function. If you run this in a process started by Mocha, the function will return `true`; otherwise it will return `false`:
