@@ -9,7 +9,7 @@ ismocha checks whether code is run using Mocha.
 | Version          | [![npm](https://img.shields.io/npm/v/ismocha)](https://www.npmjs.com/package/ismocha)                                                      |
 | Dependencies     | ![David](https://img.shields.io/david/thenativeweb/ismocha)                                                                                |
 | Dev dependencies | ![David](https://img.shields.io/david/dev/thenativeweb/ismocha)                                                                            |
-| Build            | [![CircleCI](https://img.shields.io/circleci/build/github/thenativeweb/ismocha)](https://circleci.com/gh/thenativeweb/ismocha/tree/master) |
+| Build            | ![GitHub Actions](https://github.com/thenativeweb/ismocha/workflows/Release/badge.svg?branch=master) |
 | License          | ![GitHub](https://img.shields.io/github/license/thenativeweb/ismocha)                                                                      |
 
 ## Installation
