@@ -1,3 +1,10 @@
+## [3.0.3](https://github.com/thenativeweb/ismocha/compare/3.0.2...3.0.3) (2021-05-10)
+
+
+### Bug Fixes
+
+* bump hosted-git-info from 2.8.8 to 2.8.9 ([#285](https://github.com/thenativeweb/ismocha/issues/285)) ([c06a215](https://github.com/thenativeweb/ismocha/commit/c06a2150314ae36cb6e39975f93ff5cdeb44c6c4))
+
 ## [3.0.2](https://github.com/thenativeweb/ismocha/compare/3.0.1...3.0.2) (2021-03-25)
 
 
