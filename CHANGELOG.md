@@ -1,3 +1,10 @@
+## [3.0.6](https://github.com/thenativeweb/ismocha/compare/3.0.5...3.0.6) (2021-06-10)
+
+
+### Bug Fixes
+
+* bump trim-newlines from 3.0.0 to 3.0.1 ([#296](https://github.com/thenativeweb/ismocha/issues/296)) ([87ed9cb](https://github.com/thenativeweb/ismocha/commit/87ed9cbaf3c9aeb8fb37d0690679c4230198e7e1))
+
 ## [3.0.5](https://github.com/thenativeweb/ismocha/compare/3.0.4...3.0.5) (2021-06-10)
 
 
