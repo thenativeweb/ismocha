@@ -1,3 +1,10 @@
+## [3.0.4](https://github.com/thenativeweb/ismocha/compare/3.0.3...3.0.4) (2021-06-10)
+
+
+### Bug Fixes
+
+* bump normalize-url from 6.0.0 to 6.0.1 ([#298](https://github.com/thenativeweb/ismocha/issues/298)) ([61be49c](https://github.com/thenativeweb/ismocha/commit/61be49c642c8dfdf6a079e12c22e665f75a8e56a))
+
 ## [3.0.3](https://github.com/thenativeweb/ismocha/compare/3.0.2...3.0.3) (2021-05-10)
 
 
