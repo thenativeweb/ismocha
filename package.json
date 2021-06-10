@@ -1,6 +1,6 @@
 {
   "name": "ismocha",
-  "version": "3.0.4",
+  "version": "3.0.5",
   "description": "ismocha checks whether code is run using Mocha.",
   "contributors": [
     {
