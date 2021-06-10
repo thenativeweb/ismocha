@@ -1,3 +1,10 @@
+## [3.0.5](https://github.com/thenativeweb/ismocha/compare/3.0.4...3.0.5) (2021-06-10)
+
+
+### Bug Fixes
+
+* bump glob-parent from 5.1.1 to 5.1.2 ([#297](https://github.com/thenativeweb/ismocha/issues/297)) ([fa7f6b9](https://github.com/thenativeweb/ismocha/commit/fa7f6b94d7e107030629f5b75ea8645b126fa384))
+
 ## [3.0.4](https://github.com/thenativeweb/ismocha/compare/3.0.3...3.0.4) (2021-06-10)
 
 
