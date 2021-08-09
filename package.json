@@ -20,7 +20,7 @@
   "types": "build/lib/isMocha.d.ts",
   "dependencies": {},
   "devDependencies": {
-    "assertthat": "6.3.10",
+    "assertthat": "6.3.11",
     "roboter": "11.7.8",
     "semantic-release-configuration": "2.0.5"
   },
