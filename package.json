@@ -8,7 +8,7 @@
       "email": "golo.roden@thenativeweb.io"
     },
     {
-      "name": "Jan-Hendrik Grundhöfer",
+      "name": "Jan-Hendrik Grundh\u00f6fer",
       "email": "jan-hendrik.grundhoefer@thenativeweb.io"
     },
     {
@@ -16,14 +16,16 @@
       "email": "hannes.leutloff@thenativeweb.io"
     }
   ],
+  "private": false,
   "main": "build/lib/isMocha.js",
   "types": "build/lib/isMocha.d.ts",
   "dependencies": {},
   "devDependencies": {
     "assertthat": "6.3.13",
-    "roboter": "12.1.1",
+    "roboter": "12.1.2",
     "semantic-release-configuration": "2.0.5"
   },
+  "scripts": {},
   "repository": {
     "type": "git",
     "url": "git://github.com/thenativeweb/ismocha.git"
