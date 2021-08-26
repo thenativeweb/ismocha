@@ -1,3 +1,5 @@
+import path from 'path';
+
 const testInterfaces = [
   [ 'describe', 'context', 'it', 'specify', 'before', 'after', 'beforeEach', 'afterEach' ],
   [ 'suite', 'test', 'suiteSetup', 'suiteTeardown', 'setup', 'teardown' ],
@@ -10,9 +12,13 @@ const isMocha = function (): boolean {
   if (!process.argv[1]) {
     return false;
   }
+  if (process.argv[1].includes(path.join('.bin', 'mocha'))) {
+    return true;
+  }
 
+  // We can also use mocha via the API. In this case, argv might not contain
+  // the mocha executable and we have to check the execution environment.
   const globals = Object.keys(global);
-  let hasTestInterface = false;
 
   /* eslint-disable no-labels */
   nextInterface: for (const testInterface of testInterfaces) {
@@ -21,12 +27,12 @@ const isMocha = function (): boolean {
         continue nextInterface;
       }
     }
-    hasTestInterface = true;
-    break;
+
+    return true;
   }
   /* eslint-enable no-labels */
 
-  return process.argv[1].includes('.bin/mocha') || hasTestInterface;
+  return false;
 };
 
 export { isMocha };
