@@ -1,3 +1,10 @@
+## [3.0.7](https://github.com/thenativeweb/ismocha/compare/3.0.6...3.0.7) (2021-08-26)
+
+
+### Bug Fixes
+
+* Fix typo in tsconfig.json ([#314](https://github.com/thenativeweb/ismocha/issues/314)) ([a0f57df](https://github.com/thenativeweb/ismocha/commit/a0f57dfea60065892c2508cd88305355cffa3029))
+
 ## [3.0.6](https://github.com/thenativeweb/ismocha/compare/3.0.5...3.0.6) (2021-06-10)
 
 
